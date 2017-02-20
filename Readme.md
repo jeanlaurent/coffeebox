@@ -6,6 +6,5 @@ just `docker run -ti jeanlaurent/coffeebox`
 
 And you're in the coffeescript REPL
 
-Currently runs under Alpine with node 5.1 and coffeescript 1.10.0 
-(13mb image)
-
+Currently runs under Alpine with node 7.5.0 and coffeescript 1.12.4
+(55 mb image)
