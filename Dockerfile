@@ -1,6 +1,8 @@
-FROM node:7.5.0-alpine
-MAINTAINER Jean-Laurent de Morlhon <jeanlaurent@morlhon.net>
+FROM node:10.13.0-alpine
+LABEL maintainer="Jean-Laurent de Morlhon <jeanlaurent@morlhon.net>"
 
-RUN npm install -g coffee-script@1.12.4
+RUN npm install -g coffeescript@2.3.2
+
+WORKDIR /app
 
 CMD coffee --version && coffee
